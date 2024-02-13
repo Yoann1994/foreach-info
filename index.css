@@ -1,0 +1,100 @@
+#entetedepage > div {
+    display: flex;
+    align-items: center;
+}
+
+#entetedepage button,
+#entetedepage h1,
+#entetedepage p {
+    margin: 0; 
+}
+
+#entetedepage button:not(:last-child),
+#entetedepage h1,
+#entetedepage p {
+    margin-right: 15px; 
+}
+
+
+
+#entetedepage button:last-child {
+    margin-left: auto; 
+}
+
+
+button.Yellow {
+    background-color: #ffde59;
+    border: none;
+}
+
+button.Yellow:hover {
+    background-color: #ffcc00; 
+  }
+
+
+  @font-face {
+    font-family: chunk;
+    src: url(./assets/fonts/Chunk.otf)
+  }
+
+h1 {
+    font-family: chunk;
+} 
+
+h3{
+    font-family: chunk;
+}
+
+div {
+    display: flex; 
+    width: 100%; 
+}
+
+ul {
+    list-style-type: none;
+    display: flex; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+    background-color: #d95f5d;
+    color: white;
+}
+
+.color:hover {
+    color: rgb(179, 136, 136); 
+}
+
+li {
+    flex: 1; 
+    text-align: center;
+    margin: 3px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #d95f5d;
+   
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px; 
+    color: white;
+}
